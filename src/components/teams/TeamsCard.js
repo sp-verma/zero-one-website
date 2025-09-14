@@ -53,8 +53,8 @@ function TeamCard({
           )}
           <div className="flex-1 flex overflow-hidden flex-col justify-between absolute top-full group-hover:-translate-y-full transition-[transform] bg-black/70 z-10 w-full rounded-t-3xl">
             <div className="z-10 flex items-center justify-center flex-col text-center p-2 flex-1 capitalize">
-              <h2 className="text-2xl font-semibold">{name}</h2>
-              <h3 className="text-white/60 text-lg font-medium">{position}</h3>
+              <h2 className="text-2xl font-semibold text-white">{name}</h2>
+              <h3 className="text-white text-lg font-medium">{position}</h3>
             </div>
             <div
               className={`flex justify-around items-center w-full z-10 pb-2`}
